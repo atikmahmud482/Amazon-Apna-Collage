@@ -10,6 +10,7 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .nav-logo {
@@ -54,6 +55,106 @@
 
 .nav-search {
     display: flex;
-    background-color: tomato;
+    justify-content: space-evenly;
+    background-color: orange;
     width: 600px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select {
+    background-color: #e6e6e6;
+    width: 50px;
+    text-align: center;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange
+}
+
+/* box4 */
+span {
+    font-size: .7rem;
+}
+
+.nav-second {
+    font-size: .85rem;
+    font-weight: 700;
+}
+
+/* box 6 */
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Panel */
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.panel-option p {
+    display: inline;
+    margin: 10px;
+    font-weight: 700;
+}
+
+.panel-option {
+    width: 83%;
+    font-size: .85rem;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url("/amazon/image/banner1.jpg");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-massage {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-massage a {
+    color: #007185;
 }
