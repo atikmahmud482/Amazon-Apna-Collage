@@ -19,7 +19,7 @@
 }
 
 .logo {
-    background-image: url("/amazon/image/abid-shah-cxAV7aUesIQ-unsplash.jpg");
+    background-image: url("/image/abid-shah-cxAV7aUesIQ-unsplash.jpg");
     background-size: cover;
     height: 50px;
     width: 100%;
@@ -135,7 +135,7 @@ span {
 
 /* Hero Section */
 .hero-section {
-    background-image: url("/amazon/image/banner1.jpg");
+    background-image: url("/image/banner1.jpg");
     height: 400px;
     background-size: cover;
     display: flex;
@@ -238,7 +238,7 @@ ul a {
 }
 
 .logo {
-    background-image: url("/amazon/image/abid-shah-cxAV7aUesIQ-unsplash.jpg");
+    background-image: url("/image/abid-shah-cxAV7aUesIQ-unsplash.jpg");
     background-size: cover;
     height: 70px;
     width: 100px;
